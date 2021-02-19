@@ -38,6 +38,15 @@ export const Container = styled.div`
 	}
 `;
 
+export const Picture = styled.button`
+	background: url(${({ src }) => src});
+	background-size: contain;
+	border: 0;
+	width: 32px;
+	height: 32px;
+	cursor: pointer;
+`;
+
 export const Logo = styled.img`
 	height: 32px;
 	width: 108px;
@@ -110,5 +119,29 @@ export const Link = styled.a`
 
 	&:last-of-type {
 		margin-right: 0;
+	}
+`;
+
+export const Dropdown = styled.div`
+	display: none;
+	position: absolute;
+	background-color: black;
+	padding: 10px;
+	width: 100px;
+	top: 32px;
+	right: 10px;
+`;
+
+export const Profile = styled.div`
+	display: flex;
+	align-items: center;
+	margin-left: 20px;
+	position: relative;
+	button {
+		cursor: pointer;
+	}
+	&:hover > ${Dropdown} {
+		display: flex;
+		flex-direction: column;
 	}
 `;
