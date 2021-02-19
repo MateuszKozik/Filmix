@@ -2,6 +2,7 @@ import { useContext, useState, useEffect } from "react";
 import { SelectProfileContainer } from "./profiles";
 import { FirebaseContext } from "../context/firebase";
 import { Header, Loading } from "../components";
+import * as ROUTES from "../constants/routes";
 
 export function BrowseContainer({ slides }) {
 	const [profile, setProfile] = useState({});
@@ -19,7 +20,21 @@ export function BrowseContainer({ slides }) {
 		<>
 			{loading ? <Loading src={user.photoURL} /> : <Loading.ReleaseBody />}
 			<Header src="joker1">
-				<p>Hello</p>
+				<Header bg={false}>
+					<Header.Frame>
+						<Header.Logo to={ROUTES.HOME} src="" alt="Filmix" />
+					</Header.Frame>
+				</Header>
+				<Header.Feature>
+					<Header.FeatureCallOut>Watch Joker Now</Header.FeatureCallOut>
+					<Header.Text>
+						Forever alone in a crowd, failed comedian Arthur Fleck seeks
+						connection as he walks the streets of Gotham City. Arthur wears two
+						masks -- the one he paints for his day job as a clown, and the guise
+						he projects in a futile attempt to feel like he's part of the world
+						around him.
+					</Header.Text>
+				</Header.Feature>
 			</Header>
 		</>
 	) : (
