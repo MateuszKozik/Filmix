@@ -19,12 +19,15 @@ export function BrowseContainer({ slides }) {
 	return profile.displayName ? (
 		<>
 			{loading ? <Loading src={user.photoURL} /> : <Loading.ReleaseBody />}
-			<Header src="joker1">
-				<Header bg={false}>
-					<Header.Frame>
+			<Header src="joker1" dontShowOnSmallViewPort>
+				<Header.Frame>
+					<Header.Group>
 						<Header.Logo to={ROUTES.HOME} src="" alt="Filmix" />
-					</Header.Frame>
-				</Header>
+						<Header.TextLink>Series</Header.TextLink>
+						<Header.TextLink>Films</Header.TextLink>
+					</Header.Group>
+				</Header.Frame>
+
 				<Header.Feature>
 					<Header.FeatureCallOut>Watch Joker Now</Header.FeatureCallOut>
 					<Header.Text>
