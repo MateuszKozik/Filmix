@@ -14,8 +14,6 @@ export const Background = styled.div`
 	}
 `;
 
-export const Frame = styled.div``;
-
 export const Group = styled.div`
 	display: flex;
 	align-items: center;
@@ -106,17 +104,15 @@ export const FeatureCallOut = styled.h2`
 	margin-bottom: 20px;
 `;
 
-export const Link = styled.a`
-	color: white;
-	text=decoration: none;
+export const Link = styled.p`
+	color: #fff;
+	text-decoration: none;
 	margin-right: 30px;
 	font-weight: ${({ active }) => (active === "true" ? "700" : "normal")};
 	cursor: pointer;
-
 	&:hover {
 		font-weight: bold;
 	}
-
 	&:last-of-type {
 		margin-right: 0;
 	}
@@ -130,6 +126,29 @@ export const Dropdown = styled.div`
 	width: 100px;
 	top: 32px;
 	right: 10px;
+	${Group}:last-of-type ${Link} {
+		cursor: pointer;
+	}
+	${Group} {
+		margin-bottom: 10px;
+		&:last-of-type {
+			margin-bottom: 0;
+		}
+		${Link} {
+			cursor: pointer;
+		}
+		${Picture} {
+			cursor: default;
+		}
+	}
+	button {
+		margin-right: 10px;
+	}
+	p {
+		font-size: 14px;
+		margin-bottom: 0;
+		margin-top: 0;
+	}
 `;
 
 export const Profile = styled.div`
