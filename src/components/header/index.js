@@ -14,6 +14,7 @@ import {
 	Dropdown,
 	Search,
 	SearchIcon,
+	PlayButton,
 	SearchInput,
 	FeatureCallOut
 } from "./styles/header";
@@ -95,4 +96,8 @@ Header.Logo = function HeaderLogo({ to, ...restProps }) {
 			<Logo {...restProps} />
 		</ReactRouterLink>
 	);
+};
+
+Header.PlayButton = function HeaderPlayButton({ children, ...restProps }) {
+	return <PlayButton {...restProps}>{children}</PlayButton>;
 };
