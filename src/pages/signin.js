@@ -58,7 +58,7 @@ export default function Signin() {
 					</Form.Base>
 
 					<Form.Text>
-						New to Netflix? <Form.Link to="/signup">Sign up now.</Form.Link>
+						New to Filmix? <Form.Link to="/signup">Sign up now.</Form.Link>
 					</Form.Text>
 					<Form.TextSmall>
 						Register to watch Your favourite movies!
