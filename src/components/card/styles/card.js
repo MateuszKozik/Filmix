@@ -82,8 +82,13 @@ export const Feature = styled.div`
 	background-position-x: right;
 	background-repeat: no-repeat;
 	background-color: black;
+	margin-top: 5px;
+	margin-left: 56px;
+	margin-right: 56px;
 
 	@media (max-width: 1000px) {
+		margin-right: 30px;
+		margin-left: 30px;
 		height: auto;
 		background-size: auto;
 
