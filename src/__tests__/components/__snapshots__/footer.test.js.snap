@@ -1,0 +1,98 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Footer /> renders the <Footer /> with populated data 1`] = `
+<div
+  class="footer__Container-sc-10fzgxw-0 gCEKjH"
+>
+  <p
+    class="footer__Title-sc-10fzgxw-4 gerFZx"
+  >
+    Questions? Contact us
+  </p>
+  <p
+    class="footer__Break-sc-10fzgxw-6 bZbQCC"
+  />
+  <div
+    class="footer__Row-sc-10fzgxw-2 inUtfF"
+  >
+    <div
+      class="footer__Column-sc-10fzgxw-1 cYORVo"
+    >
+      <a
+        class="footer__Link-sc-10fzgxw-3 ePjNiP"
+        href="#"
+      >
+        About
+      </a>
+      <a
+        class="footer__Link-sc-10fzgxw-3 ePjNiP"
+        href="#"
+      >
+        FAQ
+      </a>
+    </div>
+    <div
+      class="footer__Column-sc-10fzgxw-1 cYORVo"
+    >
+      <a
+        class="footer__Link-sc-10fzgxw-3 ePjNiP"
+        href="#"
+      >
+        Help
+      </a>
+      <a
+        class="footer__Link-sc-10fzgxw-3 ePjNiP"
+        href="#"
+      >
+        Privacy
+      </a>
+      <a
+        class="footer__Link-sc-10fzgxw-3 ePjNiP"
+        href="#"
+      >
+        Cookie Preferences
+      </a>
+    </div>
+    <div
+      class="footer__Column-sc-10fzgxw-1 cYORVo"
+    >
+      <a
+        class="footer__Link-sc-10fzgxw-3 ePjNiP"
+        href="#"
+      >
+        Refund Policy
+      </a>
+      <a
+        class="footer__Link-sc-10fzgxw-3 ePjNiP"
+        href="#"
+      >
+        Terms
+      </a>
+    </div>
+    <div
+      class="footer__Column-sc-10fzgxw-1 cYORVo"
+    >
+      <a
+        class="footer__Link-sc-10fzgxw-3 ePjNiP"
+        href="#"
+      >
+        Facebook
+      </a>
+      <a
+        class="footer__Link-sc-10fzgxw-3 ePjNiP"
+        href="#"
+      >
+        Twitter
+      </a>
+    </div>
+  </div>
+  <p
+    class="footer__Break-sc-10fzgxw-6 bZbQCC"
+  />
+  <p
+    class="footer__Text-sc-10fzgxw-5 bwPZlU"
+  >
+    Filmix © 2021
+  </p>
+</div>
+`;
