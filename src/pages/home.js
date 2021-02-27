@@ -9,12 +9,8 @@ export default function Home() {
 		<>
 			<HeaderContainer>
 				<Feature>
-					<Feature.Title>
-						Unlimited films, Tv programmes and more.
-					</Feature.Title>
-					<Feature.SubTitle>
-						Watch anymore. Cancel at any time.
-					</Feature.SubTitle>
+					<Feature.Title>Unlimited films and series.</Feature.Title>
+					<Feature.SubTitle>Join us Now!</Feature.SubTitle>
 					<OptForm>
 						<OptForm.Input placeholder="Email address" />
 						<OptForm.Button>Try it now</OptForm.Button>
