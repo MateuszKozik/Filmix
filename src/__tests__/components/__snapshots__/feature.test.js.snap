@@ -47,18 +47,3 @@ exports[`<Feature /> renders the <Feature /> with populated data 1`] = `
   </h2>
 </div>
 `;
-
-exports[`<Feature /> renders the <Feature /> with populated data 2`] = `
-<div
-  class="feature__Container-sc-17uyeqc-0 bvAA-dh"
->
-   
-  <h1
-    class="feature__Title-sc-17uyeqc-1 SngDu"
-  >
-     
-    Unlimited films and series.
-     
-  </h1>
-</div>
-`;

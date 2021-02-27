@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Form /> renders the <Form /> with populated data 1`] = `
+<div
+  class="form__Container-sc-1bwtepx-0 jkVpBN"
+>
+  <h1
+    class="form__Title-sc-1bwtepx-3 bbPhpT"
+  >
+    Sign In Now
+  </h1>
+  <form
+    class="form__Base-sc-1bwtepx-2 elsYFw"
+  >
+    <input
+      class="form__Input-sc-1bwtepx-7 fZMeHz"
+      placeholder="Email address"
+    />
+    <input
+      class="form__Input-sc-1bwtepx-7 fZMeHz"
+      placeholder="Password"
+      type="password"
+    />
+    <button
+      class="form__Submit-sc-1bwtepx-8 bcgRDK"
+      disabled=""
+      type="submit"
+    >
+      Sign In
+    </button>
+  </form>
+  <p
+    class="form__Text-sc-1bwtepx-4 vILRm"
+  >
+    New to Filmix? Sign up now.
+  </p>
+  <p
+    class="form__TextSmall-sc-1bwtepx-5 iSEJhm"
+  >
+    Register to watch Your favourite movies!
+  </p>
+</div>
+`;
+
+exports[`<Form /> rendest the <Form /> with an error 1`] = `
+<div
+  class="form__Container-sc-1bwtepx-0 jkVpBN"
+>
+  <div
+    class="form__Error-sc-1bwtepx-1 ciJKBy"
+  >
+    Passowrd is incorrect
+  </div>
+  <button
+    class="form__Submit-sc-1bwtepx-8 bcgRDK"
+    type="submit"
+  >
+    Sign In
+  </button>
+</div>
+`;
