@@ -1,11 +1,12 @@
 import { Header } from "../components";
 import * as ROUTES from "../constants/routes";
+import logo from "../logo.png";
 
 export default function HeaderContainer({ children }) {
 	return (
 		<Header>
 			<Header.Frame>
-				<Header.Logo to={ROUTES.HOME} alt="Filmix" src="" />
+				<Header.Logo to={ROUTES.HOME} src={logo} alt="Filmix" />
 				<Header.ButtonLink to={ROUTES.SIGN_IN}>Sign in</Header.ButtonLink>
 			</Header.Frame>
 			{children}

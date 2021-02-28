@@ -47,13 +47,13 @@ export const Picture = styled.button`
 `;
 
 export const Logo = styled.img`
-	height: 32px;
-	width: 108px;
+	height: 25px;
+	width: 120px;
 	margin-right: 40px;
 
 	@media (min-width: 1449px) {
 		height: 45px;
-		width: 167px;
+		width: 200px;
 	}
 `;
 

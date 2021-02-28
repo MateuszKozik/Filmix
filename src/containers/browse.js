@@ -5,6 +5,7 @@ import { FooterContainer } from "./footer";
 import { FirebaseContext } from "../context/firebase";
 import { Card, Header, Loading, Player } from "../components";
 import * as ROUTES from "../constants/routes";
+import logo from "../logo.png";
 
 export function BrowseContainer({ slides }) {
 	const [category, setCategory] = useState("series");
@@ -45,7 +46,7 @@ export function BrowseContainer({ slides }) {
 			<Header src="fantasy" dontShowOnSmallViewPort>
 				<Header.Frame>
 					<Header.Group>
-						<Header.Logo to={ROUTES.HOME} src="" alt="Filmix" />
+						<Header.Logo to={ROUTES.HOME} src={logo} alt="Filmix" />
 						<Header.TextLink
 							active={category === "series" ? "true" : "false"}
 							onClick={() => setCategory("series")}
