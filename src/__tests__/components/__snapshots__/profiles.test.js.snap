@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Profiles /> render the <Profile /> with populated data but misc profile image 1`] = `
+<div
+  class="profiles__Container-c183m6-0 eAWrvr"
+>
+  <h1
+    class="profiles__Title-c183m6-1 hMcxTp"
+  >
+    Who's watching?
+  </h1>
+  <ul
+    class="profiles__List-c183m6-2 egXTiU"
+  >
+    <li
+      class="profiles__Item-c183m6-5 hpRgrC"
+    >
+      <img
+        class="profiles__Picture-c183m6-4 cRkKgy"
+        data-testid="profile-picture-misc"
+        src="/images/misc/loading.gif"
+      />
+      <p
+        class="profiles__Name-c183m6-3 eHfLlR"
+      >
+        John Nowak
+      </p>
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`<Profiles /> renders the <Profiles /> with populated data 1`] = `
+<div
+  class="profiles__Container-c183m6-0 eAWrvr"
+>
+  <h1
+    class="profiles__Title-c183m6-1 hMcxTp"
+  >
+    Who's watching?
+  </h1>
+  <ul
+    class="profiles__List-c183m6-2 egXTiU"
+  >
+    <li
+      class="profiles__Item-c183m6-5 hpRgrC"
+    >
+      <img
+        class="profiles__Picture-c183m6-4 cRkKgy"
+        data-testid="profile-picture"
+        src="images/users//images/john.png.png"
+      />
+      <p
+        class="profiles__Name-c183m6-3 eHfLlR"
+      >
+        John Nowak
+      </p>
+    </li>
+  </ul>
+</div>
+`;
