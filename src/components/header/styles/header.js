@@ -4,6 +4,7 @@ import { Link as ReactRouterLink } from "react-router-dom";
 export const Background = styled.div`
 	display: flex;
 	flex-direction: column;
+
 	background: url(${({ src }) =>
 			src ? `../images/misc/${src}.jpg` : "../images/misc/home-bg.jpg"})
 		top left / cover no-repeat;
@@ -58,7 +59,7 @@ export const Logo = styled.img`
 
 export const ButtonLink = styled(ReactRouterLink)`
 	display: block;
-	background-color: #e50914;
+	background-color: #2933a3;
 	width: 84px;
 	height: fit-content;
 	color: white;
@@ -71,7 +72,7 @@ export const ButtonLink = styled(ReactRouterLink)`
 	box-sizing: border-box;
 
 	&:hover {
-		background-color: #f40612;
+		background-color: #3c49de;
 	}
 `;
 

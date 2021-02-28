@@ -3,6 +3,7 @@ import { OptForm, Feature } from "../components";
 import { FooterContainer } from "../containers/footer";
 import HeaderContainer from "../containers/header";
 import JumbotronContainer from "../containers/jumbotron";
+import { Link } from "react-router-dom";
 
 export default function Home() {
 	return (
@@ -12,9 +13,12 @@ export default function Home() {
 					<Feature.Title>Unlimited films and series.</Feature.Title>
 					<Feature.SubTitle>Join us Now!</Feature.SubTitle>
 					<OptForm>
-						<OptForm.Button>
-							<OptForm.ButtonLink to="/signup">Sign up</OptForm.ButtonLink>
-						</OptForm.Button>
+						<Link to="/signup" style={{ textDecoration: "none" }}>
+							<OptForm.Button>
+								<OptForm.ButtonLink>Sign up</OptForm.ButtonLink>
+							</OptForm.Button>
+						</Link>
+
 						<OptForm.Break />
 					</OptForm>
 				</Feature>

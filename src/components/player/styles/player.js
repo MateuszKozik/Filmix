@@ -28,8 +28,7 @@ export const Inner = styled.div`
 `;
 
 export const Button = styled.button`
-	background-color: #e50914;
-	border-color: #ff0a10;
+	background-color: #2933a3;
 	width: 114px;
 	height: 45px;
 	text-transform: uppercase;
@@ -45,6 +44,6 @@ export const Button = styled.button`
 
 	&:hover {
 		transform: scale(1.05);
-		background-color: #ff0a16;
+		background-color: #3c49de;
 	}
 `;
