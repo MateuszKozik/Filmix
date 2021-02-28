@@ -3,8 +3,6 @@ import { Footer } from "../components";
 export function FooterContainer() {
 	return (
 		<Footer>
-			<Footer.Title>Questions? Contact us</Footer.Title>
-			<Footer.Break />
 			<Footer.Row>
 				<Footer.Column>
 					<Footer.Link href="#">About</Footer.Link>
@@ -23,8 +21,10 @@ export function FooterContainer() {
 				</Footer.Column>
 
 				<Footer.Column>
-					<Footer.Link href="#">Facebook</Footer.Link>
-					<Footer.Link href="#">Twitter</Footer.Link>
+					<Footer.Link href="https://www.flaticon.com/authors/dinosoftlabs">
+						Icons creator
+					</Footer.Link>
+					<Footer.Link href="https://www.flaticon.com/">Flaticon</Footer.Link>
 				</Footer.Column>
 			</Footer.Row>
 			<Footer.Break />
