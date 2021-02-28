@@ -1,4 +1,5 @@
 import styled from "styled-components/macro";
+import { Link as ReactRouterLink } from "react-router-dom";
 
 export const Container = styled.div`
 	display: flex;
@@ -60,6 +61,11 @@ export const Text = styled.p`
 		font-size: 16px;
 		line-height: 22px;
 	}
+`;
+
+export const ButtonLink = styled(ReactRouterLink)`
+	color: white;
+	text-decoration: none;
 `;
 
 export const Break = styled.div`

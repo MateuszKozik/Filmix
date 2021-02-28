@@ -12,13 +12,10 @@ export default function Home() {
 					<Feature.Title>Unlimited films and series.</Feature.Title>
 					<Feature.SubTitle>Join us Now!</Feature.SubTitle>
 					<OptForm>
-						<OptForm.Input placeholder="Email address" />
-						<OptForm.Button>Try it now</OptForm.Button>
+						<OptForm.Button>
+							<OptForm.ButtonLink to="/signup">Sign up</OptForm.ButtonLink>
+						</OptForm.Button>
 						<OptForm.Break />
-						<OptForm.Text>
-							Ready to watch? Enter you email to create or restart your
-							membership
-						</OptForm.Text>
 					</OptForm>
 				</Feature>
 			</HeaderContainer>

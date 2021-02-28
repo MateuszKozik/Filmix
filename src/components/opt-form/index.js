@@ -1,4 +1,11 @@
-import { Container, Input, Button, Text, Break } from "./styles/opt-form";
+import {
+	Container,
+	Input,
+	Button,
+	Text,
+	Break,
+	ButtonLink
+} from "./styles/opt-form";
 
 export default function OptForm({ children, ...restProps }) {
 	return <Container {...restProps}>{children}</Container>;
@@ -18,6 +25,10 @@ OptForm.Button = function OptFormButton({ children, ...restProps }) {
 
 OptForm.Text = function OptFormText({ children, ...restProps }) {
 	return <Text {...restProps}>{children}</Text>;
+};
+
+OptForm.ButtonLink = function OptFormButtonLink({ children, ...restProps }) {
+	return <ButtonLink {...restProps}>{children}</ButtonLink>;
 };
 
 OptForm.Break = function OptFormBreak({ ...restProps }) {
