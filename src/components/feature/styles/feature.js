@@ -14,6 +14,7 @@ export const Title = styled.h1`
 	font-size: 50px;
 	font-weight: 500;
 	margin: auto;
+	text-shadow: 2px 2px #000;
 
 	@media (max-width: 600px) {
 		font-size: 35px;
@@ -25,6 +26,7 @@ export const SubTitle = styled.h2`
 	font-size: 26px;
 	font-weight: normal;
 	margin: 16px auto;
+	text-shadow: 2px 2px #000;
 
 	@media (max-width: 600px) {
 		font-size: 18px;
