@@ -87,7 +87,6 @@ export function BrowseContainer({ slides }) {
 						An exciting adventure that presents a vision of the future of Earth.
 						Nothing will ever be the same now!
 					</Header.Text>
-					<Header.PlayButton>Watch</Header.PlayButton>
 				</Header.Feature>
 			</Header>
 
