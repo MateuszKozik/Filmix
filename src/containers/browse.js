@@ -82,7 +82,7 @@ export function BrowseContainer({ slides }) {
 				</Header.Frame>
 
 				<Header.Feature>
-					<Header.FeatureCallOut>Watch Film Now</Header.FeatureCallOut>
+					<Header.FeatureCallOut>Future of Earth</Header.FeatureCallOut>
 					<Header.Text>
 						An exciting adventure that presents a vision of the future of Earth.
 						Nothing will ever be the same now!
