@@ -28,6 +28,7 @@ export const Container = styled.div`
 
 export const Group = styled.div`
 	display: flex;
+	align-items: center;
 	flex-direction: ${({ flexDirection }) =>
 		flexDirection === "row" ? "row" : "column"};
 	${({ alignItems }) => alignItems && `align-items: ${alignItems}`};
